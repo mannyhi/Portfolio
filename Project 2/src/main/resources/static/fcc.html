@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/fcc.css"/>
+    <link rel="shortcut icon" type="image/jpg" href="../styles/hen.svg"/>
+    <title>CFC</title>
+</head>
+<body>
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+        <h2 class="active"> CFC Order System </h2>
+        <div class="fadeIn first">
+            <img src="../styles/hen.svg" id="icon" alt="User Icon"/>
+        </div>
+        <form method="post" action="/logins">
+            <header><h3 class="active" id="invalid"></h3></header>
+            <input type="text" class="fadeIn second" placeholder="Username" name="id" id="id" maxlength="20" required/>
+            <input type="password" placeholder="Password" name="password" id="password" class="fadeIn third" maxlength="20" required/>
+            <input type="submit" class="fadeIn fourth" value="Log In" id="submit"/>
+        </form>
+    </div>
+</div>
+<script src="scripts/fcc.js"></script>
+</body>
+</html>

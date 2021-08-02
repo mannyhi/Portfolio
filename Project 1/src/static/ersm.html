@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ERS: Manager</title>
+    <link rel="stylesheet" href="../styles/db.css"/>
+    <link rel="shortcut icon" type="image/jpg" href="../styles/icon.svg"/>
+</head>
+<body>
+<form method="get" action="/logout" align="right">
+    <input type="submit" value="Log out" id="logout" class="btn btn-primary btn-lg">
+</form>
+<h1 id="user">Manager Reimbursement Dashboard </h1><br><br>
+<h2 style="margin-top: 39px"> Statistic </h2>
+<table id="statsTable">
+    <tr>
+        <th><b>Total Number of Requests</b></th>
+        <th><b>Approved Requests</b></th>
+        <th><b>Denied Requests</b></th>
+        <th><b>Pending Requests</b></th>
+        <th><b>Mean Expenditure Cost</b></th>
+        <th><b>Biggest Spender</b></th>
+        <th><b>Biggest Spender's Total</b></th>
+    </tr>
+</table>
+<h2> Pending</h2>
+<table id="mvpTable">
+    <tr>
+        <th><b>Request ID</b></th>
+        <th><b>Name</b></th>
+        <th><b>Employee ID</b></th>
+        <th><b>Amount</b></th>
+        <th><b>Reason</b></th>
+        <th><b>Submitted Date</b></th>
+        <th><b>Status</b></th>
+        <th><b>Message</b></th>
+        <th><b>Action</b></th>
+    </tr>
+</table>
+<h2> History </h2>
+<table id="mvhTable">
+    <tr>
+        <th><b>Request ID</b></th>
+        <th><b>Name</b></th>
+        <th><b>Employee ID</b></th>
+        <th><b>Amount</b></th>
+        <th><b>Reason</b></th>
+        <th><b>Status</b></th>
+        <th><b>Message</b></th>
+        <th><b>Submitted Date</b></th>
+        <th><b>Completed Date</b></th>
+        <th><b>Completed By</b></th>
+    </tr>
+</table>
+<script src="scripts/ersm.js"></script>
+</body>
+</html>

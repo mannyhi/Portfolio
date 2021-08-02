@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>CFC: Manager</title>
+	<link rel="stylesheet" href="/styles/db.css" />
+	<link rel="shortcut icon" type="image/jpg" href="../styles/hen.svg" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<form method="post" action="/logoff" align="right">
+		<input type="submit" value="Log out" id="logout" class="btn btn-primary btn-lg">
+	</form>
+	<h1 id="user">Manager Dashboard </h1><br><br>
+	<h2 style="margin-top: 1px"> Statistic </h2>
+	<table id="statsTable">
+		<tr>
+			<th><b>1st Quarter</b></th>
+			<th><b>2nd Quarter</b></th>
+			<th><b>3rd Quarter</b></th>
+			<th><b>4th Quarter</b></th>
+			<th><b>Total Revenue</b></th>
+		</tr>
+	</table>
+	<h2> Orders </h2>
+	<table id="ordersTable">
+		<thead>
+			<tr>
+				<th><b>Order ID</b></th>
+				<th><b>Time Placed</b></th>
+				<th><b>Items</b></th>
+				<th><b>Total</b></th>
+				<th><b>Status</b></th>
+				<th><b>Action</b></th>
+			</tr>
+		</thead>
+		<tbody id="table-body">
+
+		</tbody>
+	</table>
+	<div id="pagination-wrapper"></div>
+	<script src="scripts/fccm.js"></script>
+</body>
+
+</html>

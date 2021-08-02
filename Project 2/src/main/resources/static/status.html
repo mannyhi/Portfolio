@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="/css/chickens.css"/>
+    <link rel="shortcut icon" type="image/jpg" href="../styles/hen.svg"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<title>Chicken Fly: Order Status</title>
+</head>
+<body>
+	<main>
+		<header><h1>Order Status</h1></header>
+	<!--	<label name="idinput">order ID:</label> -->
+		<div><input name="idinput" id="idinput" type="number" placeholder="ENTER ORDER ID" min="1"/>
+		<p id="msg"></p>
+		<button onclick="get_order_status()">Submit</button></div>
+		<!--
+		<button onclick="reset_img()">Clear</button> -->
+		<br>
+		<img id="statusimg" src="images/status.jpg"/>
+	</main>
+	<footer></footer>
+</body>
+<script src="js/status.js"></script>
+</html>

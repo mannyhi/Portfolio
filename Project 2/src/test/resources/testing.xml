@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Unit Tests">
+	<test name="Dao Tests">
+		<classes>
+			<class name="testng.UserDaoTest"></class>
+			<class name="testng.OrderDaoTest"></class>
+		</classes>
+	</test>
+	<test name="Service Tests">
+		<classes>
+			<class name="testng.UserServiceTest"></class>
+			<class name="testng.OrderServiceTest"></class>
+		</classes>
+	</test>
+</suite>

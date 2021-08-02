@@ -1,0 +1,36 @@
+* {
+	font-family: serif;
+	float:none;
+}
+
+header h1 {
+	text-align: center;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: #E0E0E0;
+	margin: 1rem;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	max-width: 50em;
+	align-self: center;
+}
+
+body footer{
+	text-align: center;
+	font-size: small;
+}
+
+img {
+	align-self: center;
+	margin: 2em;
+	border: thick outset steelblue;
+}

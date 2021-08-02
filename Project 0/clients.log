@@ -1,0 +1,1099 @@
+INFO:werkzeug: * Detected change in 'C:\\Users\\M\\PycharmProjects\\Project 0\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 03:49:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 03:49:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\M\\PycharmProjects\\Project 0\\src\\tests\\clients_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Requesting all clients
+INFO:root:CS: get all clients
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 04:09:42] "GET /clients HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 10
+INFO:root:CS: get all clients
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 04:10:33] "GET /clients/10 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 10
+INFO:root:CS: get all clients
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 04:10:37] "GET /clients/10 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 7
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 04:10:44] "GET /clients/7/accounts HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 7
+INFO:root:CS: account ranges
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get accounts between amount ranges
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 04:10:53] "GET /clients/7/accounts?amountLessThan=2000&amountGreaterThan=400 HTTP/1.1" 200 -
+INFO:root:client ID: 9 and account ID: 4 passed back
+INFO:root:CS: get
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 04:11:08] "GET /clients/9/accounts/4 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\M\\PycharmProjects\\Project 0\\src\\services\\clients_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: update client
+INFO:root:DAO: get client by ID
+INFO:root:DAO: update client
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 04:52:55] "PUT /clients/12 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 15
+INFO:root:CS: delete client
+INFO:root:DAO: get client by ID
+INFO:root:DAO: delete client
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 04:53:00] "[35m[1mDELETE /clients/15 HTTP/1.1[0m" 205 -
+INFO:root:{'client_id': 5, 'account_type': 'checking', 'balance': 980}
+INFO:root:CS: create client
+INFO:root:DAO: get client by ID
+INFO:root:DAO: create new account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 04:53:04] "[35m[1mPOST /clients/5/accounts HTTP/1.1[0m" 201 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\M\\PycharmProjects\\Project 0\\src\\services\\clients_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:The client ID that the client passed back is: 7
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 04:55:51] "GET /clients/7/accounts HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 7
+INFO:root:CS: account ranges
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get accounts between amount ranges
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 04:55:56] "GET /clients/7/accounts?amountLessThan=2000&amountGreaterThan=400 HTTP/1.1" 200 -
+INFO:root:client ID: 9 and account ID: 4 passed back
+INFO:root:CS: get
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 04:56:00] "GET /clients/9/accounts/4 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\M\\PycharmProjects\\Project 0\\src\\services\\clients_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\M\\PycharmProjects\\Project 0\\src\\services\\clients_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\M\\PycharmProjects\\Project 0\\src\\controllers\\client_controller.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Requesting all clients
+INFO:root:CS: get all clients
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:07:27] "GET /clients HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 10
+INFO:root:CS: get all clients
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:07:31] "GET /clients/10 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 7
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:07:36] "GET /clients/7/accounts HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 7
+INFO:root:CS: account ranges
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get accounts between amount ranges
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:07:40] "GET /clients/7/accounts?amountLessThan=2000&amountGreaterThan=400 HTTP/1.1" 200 -
+INFO:root:client ID: 9 and account ID: 4 passed back
+INFO:root:CS: get
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:07:44] "GET /clients/9/accounts/4 HTTP/1.1" 200 -
+INFO:root:CS: transfer
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:07:48] "[35m[1mPATCH /clients/12/accounts/7/transfer/8 HTTP/1.1[0m" 500 -
+INFO:root:{'deposit': 500}
+INFO:root:CS: withdraw/deposit
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:07:55] "[35m[1mPATCH /clients/17/accounts/12 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\M\\PycharmProjects\\Project 0\\src\\services\\clients_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:{'deposit': 500}
+INFO:root:CS: withdraw/deposit
+INFO:root:DAO: get client by ID
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:DAO: update account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:10:15] "PATCH /clients/17/accounts/12 HTTP/1.1" 200 -
+INFO:root:CS: transfer
+INFO:root:DAO: get client by ID
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:DAO: update account
+INFO:root:DAO: update account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:10:23] "PATCH /clients/12/accounts/7/transfer/8 HTTP/1.1" 200 -
+INFO:root:client ID: 9 and account ID: 4 passed back
+INFO:root:CS: get
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:10:30] "GET /clients/9/accounts/4 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 7
+INFO:root:CS: account ranges
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get accounts between amount ranges
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:10:35] "GET /clients/7/accounts?amountLessThan=2000&amountGreaterThan=400 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 7
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:10:39] "GET /clients/7/accounts HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 10
+INFO:root:CS: get all clients
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:10:44] "GET /clients/10 HTTP/1.1" 200 -
+INFO:root:Requesting all clients
+INFO:root:CS: get all clients
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:10:51] "GET /clients HTTP/1.1" 200 -
+INFO:root:CS: transfer
+INFO:root:DAO: get client by ID
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:DAO: update account
+INFO:root:DAO: update account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:10:58] "PATCH /clients/12/accounts/7/transfer/8 HTTP/1.1" 200 -
+INFO:root:{'deposit': 500}
+INFO:root:CS: withdraw/deposit
+INFO:root:DAO: get client by ID
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:DAO: update account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:11:04] "PATCH /clients/17/accounts/12 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\M\\PycharmProjects\\Project 0\\src\\tests\\clients_service_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\M\\PycharmProjects\\Project 0\\src\\dao\\client_dao.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:client ID: 9 and account ID: 4 passed back
+INFO:root:CS: get
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:15:04] "GET /clients/9/accounts/4 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 7
+INFO:root:CS: account ranges
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get accounts between amount ranges
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:15:08] "GET /clients/7/accounts?amountLessThan=2000&amountGreaterThan=400 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 7
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:15:12] "GET /clients/7/accounts HTTP/1.1" 200 -
+INFO:root:{'account_type': 'saving', 'balance': 50000}
+INFO:root:CS: update
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:DAO: update account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:15:17] "PUT /clients/10/accounts/3 HTTP/1.1" 200 -
+INFO:root:{'deposit': 500}
+INFO:root:CS: withdraw/deposit
+INFO:root:DAO: get client by ID
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:DAO: update account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:15:24] "PATCH /clients/17/accounts/12 HTTP/1.1" 200 -
+INFO:root:CS: transfer
+INFO:root:DAO: get client by ID
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:DAO: update account
+INFO:root:DAO: update account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:15:29] "PATCH /clients/12/accounts/7/transfer/8 HTTP/1.1" 200 -
+INFO:root:Requesting all clients
+INFO:root:CS: get all clients
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:15:33] "GET /clients HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 10
+INFO:root:CS: get all clients
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:15:36] "GET /clients/10 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\M\\PycharmProjects\\Project 0\\src\\services\\clients_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\M\\PycharmProjects\\Project 0\\src\\tests\\clients_dao_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\M\\PycharmProjects\\Project 0\\src\\dao\\client_dao.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\M\\PycharmProjects\\Project 0\\src\\controllers\\client_controller.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\M\\PycharmProjects\\Project 0\\src\\controllers\\client_controller.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: update client
+INFO:root:DAO: get client by ID
+INFO:root:DAO: update client
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:23:36] "PUT /clients/12 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\M\\PycharmProjects\\Project 0\\src\\controllers\\client_controller.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: update client
+INFO:root:DAO: get client by ID
+INFO:root:DAO: update client
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:24:27] "PUT /clients/12 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\M\\PycharmProjects\\Project 0\\src\\controllers\\client_controller.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: update client
+INFO:root:DAO: get client by ID
+INFO:root:DAO: update client
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:25:10] "PUT /clients/12 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\M\\PycharmProjects\\Project 0\\src\\controllers\\client_controller.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: PUT client
+INFO:root:DAO: get client by ID
+INFO:root:DAO: update client
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:34:17] "PUT /clients/12 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 1
+INFO:root:CS: DELETE client
+INFO:root:DAO: get client by ID
+INFO:root:DAO: delete client
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:34:33] "[35m[1mDELETE /clients/1 HTTP/1.1[0m" 205 -
+INFO:root:The client ID that the client passed back is: 1
+INFO:root:CS: DELETE client
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:34:36] "[33mDELETE /clients/1 HTTP/1.1[0m" 404 -
+INFO:root:Requesting all clients
+INFO:root:CS: get all clients
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:34:41] "GET /clients HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:34:53] "[31m[1mPOST /clients/5/accounts HTTP/1.1[0m" 405 -
+INFO:root:The client ID that the client passed back is: 5
+INFO:root:CS: POST client
+INFO:root:DAO: get client by ID
+INFO:root:DAO: create new account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:36:26] "[35m[1mPOST /clients/5 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\M\\PycharmProjects\\Project 0\\src\\controllers\\client_controller.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: PUT client
+INFO:root:DAO: get client by ID
+INFO:root:DAO: update client
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:47:43] "PUT /clients/12 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 1
+INFO:root:CS: DELETE client
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:47:46] "[33mDELETE /clients/1 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:48:00] "[31m[1mPOST /clients/5/accounts HTTP/1.1[0m" 405 -
+INFO:root:The client ID that the client passed back is: 5
+INFO:root:CS: POST client
+INFO:root:DAO: get client by ID
+INFO:root:DAO: create new account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:48:10] "[35m[1mPOST /clients/5 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\M\\PycharmProjects\\Project 0\\src\\controllers\\client_controller.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:The client ID that the client passed back is: 5
+INFO:root:CS: POST client
+INFO:root:DAO: get client by ID
+INFO:root:DAO: create new account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:49:54] "[35m[1mPOST /clients/5 HTTP/1.1[0m" 201 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\M\\PycharmProjects\\Project 0\\src\\controllers\\client_controller.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:The client ID that the client passed back is: 5
+INFO:root:CS: POST client
+INFO:root:DAO: get client by ID
+INFO:root:DAO: create new account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:50:14] "[35m[1mPOST /clients/5 HTTP/1.1[0m" 201 -
+INFO:root:The client ID that the client passed back is: 5
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:50:28] "GET /clients/5/accounts HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\M\\PycharmProjects\\Project 0\\src\\controllers\\client_controller.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Requesting all clients
+INFO:root:CS: get all clients
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:51:34] "GET /clients HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 10
+INFO:root:CS: get all clients
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:51:40] "GET /clients/10 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 7
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:51:45] "GET /clients/7/accounts HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 7
+INFO:root:CS: account ranges
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get accounts between amount ranges
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:51:51] "GET /clients/7/accounts?amountLessThan=2000&amountGreaterThan=400 HTTP/1.1" 200 -
+INFO:root:client ID: 9 and account ID: 4 passed back
+INFO:root:CS: get
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:51:56] "GET /clients/9/accounts/4 HTTP/1.1" 200 -
+INFO:root:{'account_type': 'saving', 'balance': 50000}
+INFO:root:CS: update
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:DAO: update account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:52:11] "PUT /clients/10/accounts/3 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 10
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:52:24] "GET /clients/10/accounts HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:52:41] "GET /clients/12/accounts HTTP/1.1" 200 -
+INFO:root:CS: transfer
+INFO:root:DAO: get client by ID
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:DAO: update account
+INFO:root:DAO: update account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:53:03] "PATCH /clients/12/accounts/7/transfer/8 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:53:09] "GET /clients/12/accounts HTTP/1.1" 200 -
+INFO:root:client ID: 17 and account ID: 12 passed back
+INFO:root:CS: get
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:53:38] "GET /clients/17/accounts/12 HTTP/1.1" 200 -
+INFO:root:client ID: 17 and account ID: 12 passed back
+INFO:root:CS: get
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:54:01] "GET /clients/17/accounts/12 HTTP/1.1" 200 -
+INFO:root:CS: transfer
+INFO:root:DAO: get client by ID
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:DAO: update account
+INFO:root:DAO: update account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:54:07] "PATCH /clients/12/accounts/7/transfer/8 HTTP/1.1" 200 -
+INFO:root:client ID: 17 and account ID: 12 passed back
+INFO:root:CS: get
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:54:11] "GET /clients/17/accounts/12 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:54:40] "GET /clients/12/accounts HTTP/1.1" 200 -
+INFO:root:CS: transfer
+INFO:root:DAO: get client by ID
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:54:56] "[31m[1mPATCH /clients/12/accounts/7/transfer/8 HTTP/1.1[0m" 422 -
+INFO:root:{'deposit': 500}
+INFO:root:CS: withdraw/deposit
+INFO:root:DAO: get client by ID
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:DAO: update account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:55:18] "PATCH /clients/12/accounts/7 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 7
+INFO:root:CS: account ranges
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get accounts between amount ranges
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:55:23] "GET /clients/7/accounts?amountLessThan=2000&amountGreaterThan=400 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:55:53] "GET /clients/12/accounts HTTP/1.1" 200 -
+INFO:root:CS: transfer
+INFO:root:DAO: get client by ID
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:DAO: update account
+INFO:root:DAO: update account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:56:01] "PATCH /clients/12/accounts/7/transfer/8 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:56:03] "GET /clients/12/accounts HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:56:17] "GET /clients/12/accounts HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:56:37] "GET /clients/12/accounts HTTP/1.1" 200 -
+INFO:root:CS: transfer
+INFO:root:DAO: get client by ID
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:56:49] "[31m[1mPATCH /clients/12/accounts/7/transfer/8 HTTP/1.1[0m" 422 -
+INFO:root:CS: transfer
+INFO:root:DAO: get client by ID
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:56:52] "[31m[1mPATCH /clients/12/accounts/7/transfer/8 HTTP/1.1[0m" 422 -
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:56:57] "GET /clients/12/accounts HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 7
+INFO:root:CS: account ranges
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get accounts between amount ranges
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:57:16] "GET /clients/7/accounts?amountLessThan=2000&amountGreaterThan=400 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:57:24] "GET /clients/12/accounts HTTP/1.1" 200 -
+INFO:root:{'deposit': 5000}
+INFO:root:CS: withdraw/deposit
+INFO:root:DAO: get client by ID
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:DAO: update account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:57:41] "PATCH /clients/12/accounts/7 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 05:57:47] "GET /clients/12/accounts HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\M\\PycharmProjects\\Project 0\\src\\controllers\\client_controller.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:{'account_type': 'saving', 'balance': 50000}
+INFO:root:CS: PUT
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:07:16] "PUT /clients/10/accounts/3 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 10
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:07:28] "GET /clients/10/accounts HTTP/1.1" 200 -
+INFO:root:{'account_type': 'checking', 'balance': 1000}
+INFO:root:CS: PUT
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:07:43] "PUT /clients/10/accounts/3 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 10
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:07:48] "GET /clients/10/accounts HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 10
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:07:51] "GET /clients/10/accounts HTTP/1.1" 200 -
+INFO:root:{'account_type': 'checking', 'balance': 1000}
+INFO:root:CS: PUT
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:08:07] "PUT /clients/10/accounts/3 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\M\\PycharmProjects\\Project 0\\src\\services\\clients_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\M\\PycharmProjects\\Project 0\\src\\services\\clients_service.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:{'account_type': 'checking', 'balance': 1000}
+INFO:root:CS: PUT
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:DAO: update account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:10:28] "PUT /clients/10/accounts/3 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 10
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:10:33] "GET /clients/10/accounts HTTP/1.1" 200 -
+INFO:root:None
+INFO:root:CS: DELETE
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:DAO: delete account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:11:12] "[35m[1mDELETE /clients/10/accounts/3 HTTP/1.1[0m" 205 -
+INFO:root:The client ID that the client passed back is: 10
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:11:16] "[33mGET /clients/10/accounts HTTP/1.1[0m" 404 -
+INFO:root:None
+INFO:root:CS: DELETE
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:11:22] "[33mDELETE /clients/10/accounts/3 HTTP/1.1[0m" 404 -
+INFO:root:{'account_type': 'checking', 'balance': 1000}
+INFO:root:CS: PUT
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:11:26] "[33mPUT /clients/10/accounts/3 HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Requesting all clients
+INFO:root:CS: get all clients
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:25:03] "GET /clients HTTP/1.1" 200 -
+INFO:root:{'first_name': 'Bambi', 'last_name': 'Hops', 'email': 'moew@hops.com', 'password': 'chacha38'}
+INFO:root:CS: create new client
+INFO:root:DAO: create new client
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:25:24] "[35m[1mPOST /clients HTTP/1.1[0m" 201 -
+INFO:root:Requesting all clients
+INFO:root:CS: get all clients
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:25:30] "GET /clients HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 10
+INFO:root:CS: get all clients
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:25:44] "GET /clients/10 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 11
+INFO:root:CS: get all clients
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:25:49] "GET /clients/11 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 21
+INFO:root:CS: PUT client
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:26:05] "[33mPUT /clients/21 HTTP/1.1[0m" 404 -
+INFO:root:Requesting all clients
+INFO:root:CS: get all clients
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:26:10] "GET /clients HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: PUT client
+INFO:root:DAO: get client by ID
+INFO:root:DAO: update client
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:26:39] "PUT /clients/12 HTTP/1.1" 200 -
+INFO:root:Requesting all clients
+INFO:root:CS: get all clients
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:26:44] "GET /clients HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: DELETE client
+INFO:root:DAO: get client by ID
+INFO:root:DAO: delete client
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:27:16] "[35m[1mDELETE /clients/12 HTTP/1.1[0m" 205 -
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: DELETE client
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:27:18] "[33mDELETE /clients/12 HTTP/1.1[0m" 404 -
+INFO:root:Requesting all clients
+INFO:root:CS: get all clients
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:27:22] "GET /clients HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 15
+INFO:root:CS: POST client
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:27:39] "[33mPOST /clients/15 HTTP/1.1[0m" 404 -
+INFO:root:The client ID that the client passed back is: 15
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:27:53] "[33mGET /clients/15/accounts HTTP/1.1[0m" 404 -
+INFO:root:The client ID that the client passed back is: 14
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:28:02] "GET /clients/14/accounts HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 14
+INFO:root:CS: POST client
+INFO:root:DAO: get client by ID
+INFO:root:DAO: create new account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:28:10] "[35m[1mPOST /clients/14 HTTP/1.1[0m" 201 -
+INFO:root:The client ID that the client passed back is: 14
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:28:15] "GET /clients/14/accounts HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 14
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:28:21] "GET /clients/14/accounts HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 14
+INFO:root:CS: POST client
+INFO:root:DAO: get client by ID
+INFO:root:DAO: create new account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:28:40] "[35m[1mPOST /clients/14 HTTP/1.1[0m" 201 -
+INFO:root:The client ID that the client passed back is: 14
+INFO:root:CS: POST client
+INFO:root:DAO: get client by ID
+INFO:root:DAO: create new account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:28:51] "[35m[1mPOST /clients/14 HTTP/1.1[0m" 201 -
+INFO:root:The client ID that the client passed back is: 14
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:28:56] "GET /clients/14/accounts HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 7
+INFO:root:CS: account ranges
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get accounts between amount ranges
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:29:18] "GET /clients/7/accounts?amountLessThan=2000&amountGreaterThan=400 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 7
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:29:26] "GET /clients/7/accounts HTTP/1.1" 200 -
+INFO:root:client ID: 17 and account ID: 12 passed back
+INFO:root:CS: GET
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:29:32] "GET /clients/17/accounts/12 HTTP/1.1" 200 -
+INFO:root:client ID: 17 and account ID: 11 passed back
+INFO:root:CS: GET
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:29:38] "GET /clients/17/accounts/11 HTTP/1.1" 200 -
+INFO:root:{'account_type': 'checking', 'balance': 1000}
+INFO:root:CS: PUT
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:DAO: update account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:30:01] "PUT /clients/17/accounts/11 HTTP/1.1" 200 -
+INFO:root:client ID: 17 and account ID: 11 passed back
+INFO:root:CS: GET
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:30:09] "GET /clients/17/accounts/11 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 17
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:30:32] "GET /clients/17/accounts HTTP/1.1" 200 -
+INFO:root:None
+INFO:root:CS: DELETE
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:DAO: delete account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:31:40] "[35m[1mDELETE /clients/17/accounts/21 HTTP/1.1[0m" 205 -
+INFO:root:None
+INFO:root:CS: DELETE
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:31:43] "[33mDELETE /clients/17/accounts/21 HTTP/1.1[0m" 404 -
+INFO:root:The client ID that the client passed back is: 17
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:31:52] "GET /clients/17/accounts HTTP/1.1" 200 -
+INFO:root:client ID: 12 and account ID: 7 passed back
+INFO:root:CS: GET
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:32:19] "[33mGET /clients/12/accounts/7 HTTP/1.1[0m" 404 -
+INFO:root:client ID: 12 and account ID: 7 passed back
+INFO:root:CS: GET
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:32:42] "[33mGET /clients/12/accounts/7 HTTP/1.1[0m" 404 -
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:32:53] "[33mGET /clients/12/accounts HTTP/1.1[0m" 404 -
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:33:10] "[33mGET /clients/12/accounts HTTP/1.1[0m" 404 -
+INFO:root:{'deposit': 5000}
+INFO:root:CS: withdraw/deposit
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:33:16] "[33mPATCH /clients/12/accounts/7 HTTP/1.1[0m" 404 -
+INFO:root:{'deposit': 5000}
+INFO:root:CS: withdraw/deposit
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:33:22] "[33mPATCH /clients/12/accounts/7 HTTP/1.1[0m" 404 -
+INFO:root:{'deposit': 5000}
+INFO:root:CS: withdraw/deposit
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:33:24] "[33mPATCH /clients/12/accounts/7 HTTP/1.1[0m" 404 -
+INFO:root:{'deposit': 5000}
+INFO:root:CS: withdraw/deposit
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:33:26] "[33mPATCH /clients/12/accounts/7 HTTP/1.1[0m" 404 -
+INFO:root:{'deposit': 5000}
+INFO:root:CS: withdraw/deposit
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:33:33] "[33mPATCH /clients/12/accounts/8 HTTP/1.1[0m" 404 -
+INFO:root:The client ID that the client passed back is: 7
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:34:06] "GET /clients/7/accounts HTTP/1.1" 200 -
+INFO:root:{'deposit': 5000}
+INFO:root:CS: withdraw/deposit
+INFO:root:DAO: get client by ID
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:DAO: update account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:34:37] "PATCH /clients/7/accounts/15 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 7
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:35:00] "GET /clients/7/accounts HTTP/1.1" 200 -
+INFO:root:{'withdraw': 14000}
+INFO:root:CS: withdraw/deposit
+INFO:root:DAO: get client by ID
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:DAO: update account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:35:25] "PATCH /clients/7/accounts/15 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 7
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:35:31] "GET /clients/7/accounts HTTP/1.1" 200 -
+INFO:root:{'withdraw': 14000}
+INFO:root:CS: withdraw/deposit
+INFO:root:DAO: get client by ID
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:35:37] "[31m[1mPATCH /clients/7/accounts/15 HTTP/1.1[0m" 422 -
+INFO:root:{'withdraw': 1}
+INFO:root:CS: withdraw/deposit
+INFO:root:DAO: get client by ID
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:35:43] "[31m[1mPATCH /clients/7/accounts/15 HTTP/1.1[0m" 422 -
+INFO:root:{'deposit': 1000}
+INFO:root:CS: withdraw/deposit
+INFO:root:DAO: get client by ID
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:DAO: update account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:35:54] "PATCH /clients/7/accounts/15 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 7
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:35:58] "GET /clients/7/accounts HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:36:28] "[33mGET /clients/12/accounts HTTP/1.1[0m" 404 -
+INFO:root:CS: transfer
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:36:35] "[33mPATCH /clients/12/accounts/7/transfer/8 HTTP/1.1[0m" 404 -
+INFO:root:CS: transfer
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:36:40] "[33mPATCH /clients/12/accounts/7/transfer/8 HTTP/1.1[0m" 404 -
+INFO:root:Requesting all clients
+INFO:root:CS: get all clients
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:44:05] "GET /clients HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 10
+INFO:root:CS: get all clients
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:44:46] "GET /clients/10 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: PUT client
+INFO:root:DAO: get client by ID
+INFO:root:DAO: update client
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:44:55] "PUT /clients/12 HTTP/1.1" 200 -
+INFO:root:Requesting all clients
+INFO:root:CS: get all clients
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:45:01] "GET /clients HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: DELETE client
+INFO:root:DAO: get client by ID
+INFO:root:DAO: delete client
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:45:23] "[35m[1mDELETE /clients/12 HTTP/1.1[0m" 205 -
+INFO:root:Requesting all clients
+INFO:root:CS: get all clients
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:45:30] "GET /clients HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 5
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:45:57] "GET /clients/5/accounts HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 5
+INFO:root:CS: POST client
+INFO:root:DAO: get client by ID
+INFO:root:DAO: create new account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:46:04] "[35m[1mPOST /clients/5 HTTP/1.1[0m" 201 -
+INFO:root:The client ID that the client passed back is: 5
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:46:12] "GET /clients/5/accounts HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 7
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:46:20] "GET /clients/7/accounts HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 7
+INFO:root:CS: account ranges
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get accounts between amount ranges
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:46:27] "GET /clients/7/accounts?amountLessThan=2000&amountGreaterThan=400 HTTP/1.1" 200 -
+INFO:root:client ID: 9 and account ID: 4 passed back
+INFO:root:CS: GET
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:46:34] "GET /clients/9/accounts/4 HTTP/1.1" 200 -
+INFO:root:client ID: 10 and account ID: 3 passed back
+INFO:root:CS: GET
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:46:54] "GET /clients/10/accounts/3 HTTP/1.1" 200 -
+INFO:root:{'account_type': 'saving', 'balance': 50000}
+INFO:root:CS: PUT
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:DAO: update account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:47:10] "PUT /clients/10/accounts/3 HTTP/1.1" 200 -
+INFO:root:client ID: 10 and account ID: 3 passed back
+INFO:root:CS: GET
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:47:18] "GET /clients/10/accounts/3 HTTP/1.1" 200 -
+INFO:root:None
+INFO:root:CS: DELETE
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:DAO: delete account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:47:33] "[35m[1mDELETE /clients/10/accounts/3 HTTP/1.1[0m" 205 -
+INFO:root:None
+INFO:root:CS: DELETE
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:47:37] "[33mDELETE /clients/10/accounts/3 HTTP/1.1[0m" 404 -
+INFO:root:client ID: 10 and account ID: 3 passed back
+INFO:root:CS: GET
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:47:46] "[33mGET /clients/10/accounts/3 HTTP/1.1[0m" 404 -
+INFO:root:client ID: 17 and account ID: 12 passed back
+INFO:root:CS: GET
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:48:11] "GET /clients/17/accounts/12 HTTP/1.1" 200 -
+INFO:root:{'deposit': 500}
+INFO:root:CS: withdraw/deposit
+INFO:root:DAO: get client by ID
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:DAO: update account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:48:22] "PATCH /clients/17/accounts/12 HTTP/1.1" 200 -
+INFO:root:client ID: 17 and account ID: 12 passed back
+INFO:root:CS: GET
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:48:27] "GET /clients/17/accounts/12 HTTP/1.1" 200 -
+INFO:root:{'withdraw': 9000}
+INFO:root:CS: withdraw/deposit
+INFO:root:DAO: get client by ID
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:48:41] "[31m[1mPATCH /clients/17/accounts/12 HTTP/1.1[0m" 422 -
+INFO:root:{'withdraw': 8000}
+INFO:root:CS: withdraw/deposit
+INFO:root:DAO: get client by ID
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:DAO: update account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:48:52] "PATCH /clients/17/accounts/12 HTTP/1.1" 200 -
+INFO:root:client ID: 17 and account ID: 12 passed back
+INFO:root:CS: GET
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:49:00] "GET /clients/17/accounts/12 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:49:28] "[33mGET /clients/12/accounts HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 391-658-728
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:55:14] "GET /clients/12/accounts HTTP/1.1" 200 -
+INFO:root:CS: transfer
+INFO:root:DAO: get client by ID
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:DAO: update account
+INFO:root:DAO: update account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:55:31] "PATCH /clients/12/accounts/7/transfer/8 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:55:38] "GET /clients/12/accounts HTTP/1.1" 200 -
+INFO:root:CS: transfer
+INFO:root:DAO: get client by ID
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:DAO: update account
+INFO:root:DAO: update account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:55:56] "PATCH /clients/12/accounts/7/transfer/8 HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 12
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:56:00] "GET /clients/12/accounts HTTP/1.1" 200 -
+INFO:root:The client ID that the client passed back is: 17
+INFO:root:CS: all accounts
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get all account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:56:31] "GET /clients/17/accounts HTTP/1.1" 200 -
+INFO:root:client ID: 17 and account ID: 12 passed back
+INFO:root:CS: GET
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:56:41] "GET /clients/17/accounts/12 HTTP/1.1" 200 -
+INFO:root:{'deposit': 500}
+INFO:root:CS: withdraw/deposit
+INFO:root:DAO: get client by ID
+INFO:root:CS: 
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:root:DAO: update account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:56:50] "PATCH /clients/17/accounts/12 HTTP/1.1" 200 -
+INFO:root:client ID: 17 and account ID: 12 passed back
+INFO:root:CS: GET
+INFO:root:DAO: get client by ID
+INFO:root:DAO: get account
+INFO:werkzeug:127.0.0.1 - - [23/Jun/2021 06:56:53] "GET /clients/17/accounts/12 HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 103-914-074
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
