@@ -37,11 +37,6 @@ public class FrontController {
 				ctx.json("reset");
 			}
 		});
-//		*************************************
-		app.get("/invalidpassword", ctx -> {
-			ctx.json("invalid");
-		});
-//		*************************************
 		this.dispatcher = new Dispatcher(app);
 
 		// login verification for manager page
